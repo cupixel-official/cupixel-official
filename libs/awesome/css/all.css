@@ -4421,3 +4421,52 @@ readers do not read off random characters that represent icons */
 .fas {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900; }
+
+/* 新增图标 */
+@font-face {
+  font-family: "iconfont"; /* Project id 1996916 */
+  src: url('//at.alicdn.com/t/font_1996916_06eb7s45b9l.woff2?t=1631114630058') format('woff2'),
+       url('//at.alicdn.com/t/font_1996916_06eb7s45b9l.woff?t=1631114630058') format('woff'),
+       url('//at.alicdn.com/t/font_1996916_06eb7s45b9l.ttf?t=1631114630058') format('truetype'),
+       url('//at.alicdn.com/t/font_1996916_06eb7s45b9l.svg?t=1631114630058#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-weight: 900;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-douyin:before {
+  content: "\e63e";
+}
+
+.icon-Geogebra:before {
+  content: "\e69c";
+}
+
+.icon-huaban88:before {
+  content: "\e61a";
+}
+
+.icon-qq:before {
+  content: "\e632";
+}
+
+.icon-gitee-fill-round:before {
+  content: "\e686";
+}
+
+.icon-microsoftoutlook:before {
+  content: "\ec1b";
+}
+
+.icon-netease-cloud-music-fill:before {
+  content: "\e7ae";
+}
+
+.icon-bilibili-fill:before {
+  content: "\e646";
+}
