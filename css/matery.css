@@ -293,12 +293,13 @@ header .brand-logo .logo-img {
     height: 36px;
     vertical-align: middle;
     padding-bottom: 6px;
+    text-shadow: 0px 0px 8px #000000;
 }
 
 header .brand-logo .logo-span {
     font-size: 1.25rem;
     vertical-align: top;
-    text-shadow: 2px 2px 10px #000000;
+    text-shadow: 0px 0px 6px #000000;
 }
 
 /*修改顶部 logo 的文字垂直对齐为 top，避免默认 middle 看起来偏下*/
@@ -1870,8 +1871,13 @@ footer .copy-right {
     margin: -15px 0 10px 10px;
 }
 
+p.search-result-summary{
+    margin: 15px 0 0 -8px;
+}
+
 #searchResult .search-result-list {
     margin-left: -8px;
+    margin-top: 0px;
     padding-left: 0;
     color: #666;
 }
